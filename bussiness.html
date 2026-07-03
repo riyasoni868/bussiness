@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riya Finance Consultancy | Institutional Asset Architecture & Business Strategy Desk</title>
+    <!-- Tailwind CSS Production Layout Architecture Core -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chart.js Graphics Engine System Link -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Premium FontAwesome Vectors Icons Suite Core -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Typography Systems Framework -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+            background-color: #030712;
+        }
+        .font-display {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        /* Custom Fine Spacing & Glassmorphism Navigation Transitions */
+        .spa-view-layer {
+            display: none;
+            opacity: 0;
+            transform: scale(0.99) translateY(12px);
+            transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .spa-view-layer.layer-active {
+            display: block;
+            opacity: 1;
+            transform: scale(1) translateY(0);
+        }
+        /* Glassmorphic Panel Core Specs */
+        .glass-terminal-card {
+            background: rgba(15, 23, 42, 0.75);
+            backdrop-filter: blur(24px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        /* Custom High-Contrast Scrollbar Track */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #030712;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1e3a8a;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="text-slate-100 antialiased min-h-screen flex flex-col justify-between bg-[radial-gradient(circle_at_50%_0%,#111827_0%,#030712_70%)]">
+
+    <!-- Premium Transparent Fixed Header Command Centre Bar -->
+    <header class="fixed top-0 left-0 w-full z-40 bg-[#030712]/80 backdrop-blur-xl border-b border-white/5 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+            <a href="#" onclick="routeSPA('home-layer')" class="flex items-center gap-3.5 group">
+                <div class="w-12 h-12 bg-blue-600 rounded-2xl flex items-center justify-center text-white font-black font-display text-xl shadow-xl shadow-blue-600/30 group-hover:scale-105 transition-transform">RF</div>
+                <div class="flex flex-col">
+                    <span class="text-base font-black font-display tracking-tight leading-none text-white">RIYA FINANCE</span>
+                    <span class="text-[9px] text-blue-500 font-extrabold tracking-widest uppercase mt-1">Consultancy</span>
+                </div>
+            </a>
+            
+            <!-- Spacious Navigation Paths Channel Elements Array -->
+            <nav class="hidden xl:flex items-center space-x-1.5 bg-white/5 p-1.5 border border-white/10 rounded-2xl">
+                <button onclick="routeSPA('home-layer')" id="nav-home-layer" class="px-5 py-3 rounded-xl text-xs font-bold uppercase tracking-wider text-white bg-blue-600 shadow-md">Strategic Hub</button>
+                <button onclick="routeSPA('capabilities-layer')" id="nav-capabilities-layer" class="px-5 py-3 rounded-xl text-xs font-bold uppercase tracking-wider text-slate-400 hover:text-white transition-colors">Core Capabilities</button>
+                <button onclick="routeSPA('calculators-layer')" id="nav-calculators-layer" class="px-5 py-3 rounded-xl text-xs font-bold uppercase tracking-wider text-slate-400 hover:text-white transition-colors">Quantitative Desk</button>
+                <button onclick="routeSPA('intake-layer')" id="nav-intake-layer" class="px-5 py-3 rounded-xl text-xs font-bold uppercase tracking-wider text-slate-400 hover:text-white transition-colors">Consultation Gateway</button>
+            </nav>
+
+            <div>
+                <a href="https://www.linkedin.com/in/riyasoni40/" target="_blank" class="bg-white/5 border border-white/10 text-white font-bold text-xs tracking-widest uppercase px-6 py-4 rounded-xl shadow-xl hover:bg-white/10 transition-all inline-flex items-center gap-2">
+                    Professional Network <i class="fa-brands fa-linkedin text-sm text-blue-500"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Active Single-Page Operational Interface Pipeline -->
+    <main class="flex-grow pt-12">
+
+        <!-- LAYER 1: CONTINUOUS LONG-SCROLL HOME HUB VIEW -->
+        <section id="home-layer" class="spa-view-layer layer-active max-w-7xl mx-auto px-6 space-y-36 pb-24 pt-12">
+            
+            <!-- Hero Grid Architecture -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+                <div class="lg:col-span-7 space-y-8 text-left">
+                    <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-xl bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold font-mono">
+                        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                        B2B Business Model Optimization Active
+                    </div>
+                    <h1 class="text-4xl sm:text-6xl font-black font-display tracking-tight leading-[1.1] text-white">
+                        Take Control Of Your <span class="bg-gradient-to-r from-white via-blue-500 to-blue-700 bg-clip-text text-transparent block mt-2">Financial Future</span>
+                    </h1>
+                    <p class="text-slate-400 font-light text-base sm:text-lg leading-relaxed max-w-2xl">
+                        At Riya Finance Consultancy, we develop custom strategic architectures designed to accelerate capital efficiency metrics for growing corporate scaleups, retail organizations, and large portfolio management entities. We insulate resource performance channels cleanly.
+                    </p>
+                    <div class="flex flex-wrap gap-5 pt-2">
+                        <button onclick="routeSPA('capabilities-layer')" class="px-8 py-4.5 bg-blue-600 text-white text-xs font-black tracking-widest uppercase rounded-xl shadow-xl hover:bg-blue-700 transition-all">Explore Capabilities</button>
+                        <button onclick="routeSPA('calculators-layer')" class="px-8 py-4.5 bg-white/5 border border-white/10 text-slate-300 text-xs font-black tracking-widest uppercase rounded-xl hover:bg-white/10 transition-all">Launch Quant Calculators</button>
+                    </div>
+                </div>
+                
+                <div class="lg:col-span-5 relative flex justify-center">
+                    <div class="w-full max-w-md glass-terminal-card p-8 rounded-[32px] shadow-2xl relative overflow-hidden">
+                        <div class="absolute -right-12 -top-12 w-48 h-48 bg-blue-600/10 rounded-full filter blur-xl"></div>
+                        <div class="flex items-center justify-between border-b border-white/5 pb-5 mb-6">
+                            <span class="font-display font-bold text-xs text-slate-500 uppercase tracking-widest font-mono">System Asset Vectors</span>
+                            <div class="flex space-x-1.5"><span class="w-2 h-2 rounded-full bg-slate-800"></span><span class="w-2 h-2 rounded-full bg-slate-800"></span><span class="w-2 h-2 rounded-full bg-slate-800"></span></div>
+                        </div>
+                        <div class="space-y-4 font-sans">
+                            <div class="bg-black/30 p-5 rounded-2xl flex items-center justify-between border border-white/5">
+                                <div class="flex items-center gap-3.5">
+                                    <div class="w-12 h-12 bg-blue-500/10 text-blue-400 rounded-xl flex items-center justify-center text-lg"><i class="fa-solid fa-chart-line"></i></div>
+                                    <div><div class="text-xs font-bold text-white">Portfolio Return Velocity</div><div class="text-[10px] text-slate-500">Alpha Optimization Module</div></div>
+                                </div>
+                                <span class="text-xs font-bold text-emerald-400 font-mono">+24.81%</span>
+                            </div>
+                            <div class="bg-black/30 p-5 rounded-2xl flex items-center justify-between border border-white/5">
+                                <div class="flex items-center gap-3.5">
+                                    <div class="w-12 h-12 bg-emerald-500/10 text-emerald-400 rounded-xl flex items-center justify-center text-lg"><i class="fa-solid fa-vault"></i></div>
+                                    <div><div class="text-xs font-bold text-white">Tax Liability Reduction</div><div class="text-[10px] text-slate-500">Net Exposure Optimization</div></div>
+                                </div>
+                                <span class="text-xs font-bold text-blue-400 font-mono">-15.40%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Deep Long-Scroll Business Performance Narrative Segment -->
+            <div class="border-t border-white/5 pt-24 grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+                <div class="lg:col-span-7 space-y-6">
+                    <span class="text-xs font-bold text-blue-400 uppercase tracking-widest font-mono block">Sovereign Alliance Networks</span>
+                    <h3 class="text-3xl font-extrabold font-display text-white tracking-tight leading-snug">Why Top-Tier Enterprises Align Their Capital With Our Advisory Systems</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed font-light font-sans">
+                        Riya Finance Consultancy bypasses archaic spreadsheet structures to implement clean data optimization modules. We map your multi-currency assets flows, secure alternative investment positions, and eliminate operational leakages cleanly.
+                    </p>
+                </div>
+                <div class="lg:col-span-5 grid grid-cols-2 gap-6 text-center">
+                    <div class="glass-terminal-card p-8 rounded-2xl"><div class="text-3xl font-black font-display text-blue-500">₹50 Cr+</div><div class="text-[10px] font-bold uppercase tracking-widest text-slate-500 font-mono mt-2">Assets Mapped</div></div>
+                    <div class="glass-terminal-card p-8 rounded-2xl"><div class="text-3xl font-black font-display text-emerald-400">1500+</div><div class="text-[10px] font-bold uppercase tracking-widest text-slate-500 font-mono mt-2">Active Global Leads</div></div>
+                </div>
+            </div>
+
+            <!-- Infinite Corporate Associations Trust Tracker Bar -->
+            <div class="glass-terminal-card p-10 rounded-[32px] space-y-8">
+                <div class="text-center space-y-2">
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-slate-500 font-mono">// Legacy Corporate Networks Integrated Safely</h4>
+                    <p class="text-xl font-bold font-display text-white">Institutional Alliances & Operational Records</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-4 gap-8 text-center font-display font-bold text-sm tracking-widest text-slate-400">
+                    <div class="p-6 bg-black/40 rounded-xl border border-white/5">APEX TECH GLOBAL</div>
+                    <div class="p-6 bg-black/40 rounded-xl border border-white/5">INDOEURO LOGISTICS</div>
+                    <div class="p-6 bg-black/40 rounded-xl border border-white/5">VANGUARD HOLDINGS</div>
+                    <div class="p-6 bg-black/40 rounded-xl border border-white/5">CAPITAL STRUCTURING INC</div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- LAYER 2: CORE CAPABILITIES EXHAUSTIVE SPECIFICATIONS VIEW -->
+        <section id="capabilities-layer" class="spa-view-layer py-16 max-w-7xl mx-auto px-6 space-y-16">
+            <div class="max-w-3xl space-y-4">
+                <span class="text-xs font-bold tracking-widest text-blue-400 font-mono uppercase block">Strategic Blueprints Inventory</span>
+                <h2 class="text-4xl font-extrabold font-display text-white tracking-tight">Our Global Enterprise Capabilities</h2>
+                <p class="text-slate-400 font-light text-sm">Industrial financial mechanics built specifically to optimize assets performance vectors and block capital leaks.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Cap Card 1 -->
+                <div class="glass-terminal-card p-10 rounded-[28px] hover:border-blue-500 transition-all duration-300 group">
+                    <div class="w-12 h-12 rounded-xl bg-blue-500/10 text-blue-400 border border-blue-500/20 flex items-center justify-center mb-8 text-lg"><i class="fa-solid fa-chart-pie"></i></div>
+                    <h3 class="text-xl font-bold text-white mb-3">Investment Matrix Engineering</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed font-light font-sans">
+                        Grow wealth using modern quantitative methodologies. Our multi-tier risk selection parameters utilize custom tracking data matrices to capture sustainable alpha spreads safely while staying completely insulated from micro-market systemic shocks.
+                    </p>
+                </div>
+                <!-- Cap Card 2 -->
+                <div class="glass-terminal-card p-10 rounded-[28px] hover:border-blue-500 transition-all duration-300 group">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 flex items-center justify-center mb-8 text-lg"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+                    <h3 class="text-xl font-bold text-white mb-3">Loan Consultancy & Leverage</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed font-light font-sans">
+                        Procure low-interest credit options built explicitly with affordable EMI paths. We calculate systemic exposure maps allowing your enterprise to manage external leverage without friction, helping entities secure optimal capital terms.
+                    </p>
+                </div>
+                <!-- Cap Card 3 -->
+                <div class="glass-terminal-card p-10 rounded-[28px] hover:border-blue-500 transition-all duration-300 group">
+                    <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 border border-amber-500/20 flex items-center justify-center mb-8 text-lg"><i class="fa-solid fa-scale-balanced"></i></div>
+                    <h3 class="text-xl font-bold text-white mb-3">Tax Liability Insulation</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed font-light font-sans">
+                        Professional tax management framework engineered to mitigate year-end liability blocks legally. We structure corporate accounting pipelines to ensure seamless asset retention indexes, maximizing post-tax liquidity performance frames.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Exclusive Biography Profile Matrix -->
+            <div class="border-t border-white/5 pt-20 grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+                <div class="lg:col-span-4 flex justify-center">
+                    <div class="border border-white/10 p-3 bg-white/5 rounded-[36px] shadow-2xl max-w-xs w-full">
+                        <img class="w-full h-80 object-cover rounded-[28px] filter contrast-105 mix-blend-luminosity hover:mix-blend-normal transition-all duration-500" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80" alt="Riya Soni - Principal Executive">
+                    </div>
+                </div>
+                <div class="lg:col-span-8 space-y-5">
+                    <span class="text-xs font-bold text-blue-400 font-mono uppercase block">Corporate Innovator Profile</span>
+                    <h3 class="text-3xl font-extrabold font-display text-white">Riya Soni</h3>
+                    <div class="text-xs font-semibold uppercase tracking-widest text-slate-500 font-mono">Founder, CEO & Business Development Strategist</div>
+                    <p class="text-slate-400 font-light text-sm sm:text-base leading-relaxed max-w-3xl">
+                        Hello, I'm Riya Soni, the founder of Riya Finance Consultancy. As a dedicated Business Developer and financial strategist, I construct modern, automated valuation tools to provide actionable insights for businesses and professionals. My focus is entirely on engineering premium data-driven models that maximize capital efficiency and make tracking transparent.
+                    </p>
+                    <div class="flex items-center space-x-4 pt-2 text-slate-500">
+                        <a href="https://www.linkedin.com/in/riyasoni40/" target="_blank" class="w-12 h-12 rounded-xl bg-white/5 border border-white/10 hover:bg-blue-600 hover:text-white flex items-center justify-center transition-all shadow-md"><i class="fa-brands fa-linkedin-in text-base"></i></a>
+                        <a href="mailto:riyasoni5409@gmail.com" class="w-12 h-12 rounded-xl bg-white/5 border border-white/10 hover:bg-red-600 hover:text-white flex items-center justify-center transition-all shadow-md"><i class="fa-solid fa-envelope text-base"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- LAYER 3: INTERACTIVE MULTI-SUITE QUANTITATIVE DESK (CALCULATORS) -->
+        <section id="calculators-layer" class="spa-view-layer py-16 max-w-7xl mx-auto px-6">
+            <div class="max-w-3xl space-y-4 mb-12">
+                <span class="text-xs font-bold text-blue-400 font-mono uppercase tracking-widest block">Quantitative Desks Core</span>
+                <h2 class="text-4xl font-extrabold font-display text-white tracking-tight">Interactive Mathematical Estimation Core</h2>
+            </div>
+
+            <!-- Tab Switching Layout Tracks Buttons -->
+            <div class="flex flex-wrap gap-2 border-b border-white/5 pb-4 mb-8 text-xs font-bold uppercase tracking-widest font-mono">
+                <button onclick="toggleSuiteCalcTab('tab-emi-engine')" id="btn-tab-emi-engine" class="px-5 py-3 rounded-xl bg-blue-600 text-white shadow-md">EMI Engine</button>
+                <button onclick="toggleSuiteCalcTab('tab-sip-engine')" id="btn-tab-sip-engine" class="px-5 py-3 rounded-xl text-slate-400 hover:bg-white/5">SIP Predictor</button>
+                <button onclick="toggleSuiteCalcTab('tab-gst-engine')" id="btn-tab-gst-engine" class="px-5 py-3 rounded-xl text-slate-400 hover:bg-white/5">GST Unit</button>
+                <button onclick="toggleSuiteCalcTab('tab-tax-engine')" id="btn-tab-tax-engine" class="px-5 py-3 rounded-xl text-slate-400 hover:bg-white/5">Tax Slabs</button>
+                <button onclick="toggleSuiteCalcTab('tab-math-engine')" id="btn-tab-math-engine" class="px-5 py-3 rounded-xl text-slate-400 hover:bg-white/5">Arithmetic Core</button>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+                
+                <!-- Input Variable Panel Card Sheet -->
+                <div class="lg:col-span-7 glass-terminal-card p-6 sm:p-10 rounded-[28px] shadow-2xl">
+                    
+                    <!-- BOX 1: EMI ENGINE -->
+                    <div id="tab-emi-engine" class="suite-calc-block block space-y-4">
+                        <h4 class="text-sm font-bold font-display text-blue-400 uppercase tracking-wider mb-2 font-mono">// Amortization Core Input Matrix</h4>
+                        <div>
+                            <label class="block text-[10px] font-bold uppercase tracking-wider text-slate-500 mb-2 font-mono">Loan Principal SUM (₹)</label>
+                            <input type="number" id="inpEmiPrincipal" value="3000000" oninput="executeEmiCoreCalculations()" class="w-full px-4 py-3.5 bg-black/40 border border-white/10 rounded-xl font-mono font-bold text-white focus:outline-none focus:border-blue-500">
+                        </div>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-[10px] font-bold uppercase tracking-wider text-slate-500 mb-2 font-mono">Annual Interest Rate (%)</label>
+                                <input type="number" id="inpEmiRateIndex" value="8.5" step="0.1" oninput="executeEmiCoreCalculations()" class="w-full px-4 py-3.5 bg-black/40 border border-white/10 rounded-xl font-mono font-bold text-white focus:outline-none focus:border-blue-500">
+                            </div>
+                            <div>
+                                <label class="block text-[10px] font-bold uppercase tracking-wider text-slate-500 mb-2 font-mono">Tenure Length (Years)</label>
+                                <input type="number" id="inpEmiTenureYears" value="20" oninput="executeEmiCoreCalculations()" class="w-full px-4 py-3.5 bg-black/40 border border-white/10 rounded-xl font-mono font-bold text-white focus:outline-none focus:border-blue-500">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BOX 2: SIP PREDICTOR -->
+                    <div id="tab-sip-engine" class="suite-calc-block hidden space-y-4">
+                        <h4 class="text-sm font-bold font-display text-blue-400 uppercase tracking-wider mb-2 font-mono">// Compounded Index Value inputs</h4>
+                        <div>
+                            <label class="block text-[10px] font-bold uppercase tracking-wider text-slate-500 mb-2 font-mono">Monthly Periodic Injection (₹)</label>
+                            <input type="number" id="inpSipMonthlySum" value="25000" oninput="executeSipCoreCalculations()" class="w-full px-4 py-3.5 bg-black/40 border border-white/10 rounded-xl font-mono font-bold text-white focus:outline-none focus:border-blue-500">
+                        </div>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-[10px] font-bold uppercase tracking-wider text-slate-500 mb-2 font-mono">Expected Yield Return Rate (%)</label>
+                                <input type="number" id="inpSipYieldIndex" value="13" step="0.1" oninput="executeSipCoreCalculations()" class="w-full px-4 py-3.5 bg-black/40 border border-white/10 rounded-xl font-mono font-bold text-white focus:outline-none focus:border-blue-500">
+                            </div>
+                            <div>
+                                <label class="block text-[10px] font-bold uppercase tracking-wider text-slate-500 mb-2 font-mono">System Horizon Tenure (Years)</label>
+                                <input type="number" id="inpSipTenureYears" value="12" oninput="executeSipCoreCalculations()" class="w-full px-4 py-3.5 bg-black/40 border border-white/10 rounded-xl font-mono font-bold text-white focus:outline-none focus:border-blue-500">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BOX 3: GST CALCULATOR -->
+                    <div id="tab-gst-engine" class="suite-calc-block hidden space-y-4">
+                        <h4 class="text-sm font-bold font-display text-blue-400 uppercase tracking-wider mb-2 font-mono">// Invoice Supply Costing Matrix</h4>
+                        <div>
+                            <label class="block text-[10px] font-bold uppercase tracking-wider text-slate-500 mb-2 font-mono">Original Net Value Supply (₹)</label>
+                            <input type="number" id="inpGstSupplyCost" value="150000" oninput="executeGstCoreCalculations()" class="w-full px-4 py-3.5 bg-black/40 border border-white/10 rounded-xl font-mono font-bold text-white focus:outline-none focus:border-blue-500">
+                        </div>
+                        <div>
+                            <label class="block text-[10px] font-bold uppercase tracking-wider text-slate-500 mb-2 font-mono">GST Tariff Percentage Bracket</label>
+                            <select id="inpGstSlabRate" onchange="executeGstCoreCalculations()" class="w-full px-4 py-3.5 bg-black/40 border border-white/10 text-white font-mono font-bold rounded-xl focus:outline-none focus:border-blue-500 cursor-pointer">
+                                <option value="5" class="bg-slate-900">5% Lower Bracket</option>
+                                <option value="12" class="bg-slate-900">12% Intermediate</option>
+                                <option value="18" class="bg-slate-900" selected>18% Standard Operations</option>
+                                <option value="28" class="bg-slate-900">28% Premium Luxury</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- BOX 4: TAX SLAB ASSESSOR -->
+                    <div id="tab-tax-engine" class="suite-calc-block hidden space-y-4">
+                        <h4 class="text-sm font-bold font-display text-blue-400 uppercase tracking-wider mb-2 font-mono">// Revenue Slab Parameters Mapping</h4>
+                        <div>
+                            <label class="block text-[10px] font-bold uppercase tracking-wider text-slate-500 mb-2 font-mono">Gross Annual Financial Accruals (₹)</label>
+                            <input type="number" id="inpTaxGrossInflow" value="2000000" oninput="executeTaxCoreCalculations()" class="w-full px-4 py-3.5 bg-black/40 border border-white/10 rounded-xl font-mono font-bold text-white focus:outline-none focus:border-blue-500">
+                        </div>
+                    </div>
+
+                    <!-- BOX 5: ARITHMETIC CORE LEDGERPAD -->
+                    <div id="tab-math-engine" class="suite-calc-block hidden space-y-4">
+                        <h4 class="text-sm font-bold font-display text-blue-400 uppercase tracking-wider mb-2 font-mono">// Consolidated Balancing ledger pad</h4>
+                        <input type="text" id="arithmeticDisplayReadout" value="0" readonly class="w-full bg-slate-950 text-right px-4 py-4 rounded-xl font-mono text-2xl font-bold text-emerald-400 border border-white/5 shadow-inner focus:outline-none">
+                        <div class="grid grid-cols-4 gap-2 font-mono font-bold text-white">
+                            <button onclick="flushArithmeticConsole()" class="p-3.5 bg-red-500/20 text-red-400 rounded-xl hover:bg-red-500/30">C</button>
+                            <button onclick="feedTokenToArithmeticConsole('/')" class="p-3.5 bg-white/5 rounded-xl hover:bg-white/10 text-blue-400">/</button>
+                            <button onclick="feedTokenToArithmeticConsole('*')" class="p-3.5 bg-white/5 rounded-xl hover:bg-white/10 text-blue-400">*</button>
+                            <button onclick="feedTokenToArithmeticConsole('-')" class="p-3.5 bg-white/5 rounded-xl hover:bg-white/10 text-blue-400">-</button>
+                            <button onclick="feedTokenToArithmeticConsole('7')" class="p-3.5 bg-white/5 border border-white/5 rounded-xl hover:bg-white/10">7</button>
+                            <button onclick="feedTokenToArithmeticConsole('8')" class="p-3.5 bg-white/5 border border-white/5 rounded-xl hover:bg-white/10">8</button>
+                            <button onclick="feedTokenToArithmeticConsole('9')" class="p-3.5 bg-white/5 border border-white/5 rounded-xl hover:bg-white/10">9</button>
+                            <button onclick="feedTokenToArithmeticConsole('+')" class="p-3.5 bg-white/5 rounded-xl hover:bg-white/10 text-blue-400">+</button>
+                            <button onclick="feedTokenToArithmeticConsole('4')" class="p-3.5 bg-white/5 border border-white/5 rounded-xl hover:bg-white/10">4</button>
+                            <button onclick="feedTokenToArithmeticConsole('5')" class="p-3.5 bg-white/5 border border-white/5 rounded-xl hover:bg-white/10">5</button>
+                            <button onclick="feedTokenToArithmeticConsole('6')" class="p-3.5 bg-white/5 border border-white/5 rounded-xl hover:bg-white/10">6</button>
+                            <button onclick="feedTokenToArithmeticConsole('.')" class="p-3.5 bg-white/5 border border-white/5 rounded-xl hover:bg-white/10">.</button>
+                            <button onclick="feedTokenToArithmeticConsole('1')" class="p-3.5 bg-white/5 border border-white/5 rounded-xl hover:bg-white/10">1</button>
+                            <button onclick="feedTokenToArithmeticConsole('2')" class="p-3.5 bg-white/5 border border-white/5 rounded-xl hover:bg-white/10">2</button>
+                            <button onclick="feedTokenToArithmeticConsole('3')" class="p-3.5 bg-white/5 border border-white/5 rounded-xl hover:bg-white/10">3</button>
+                            <button onclick="feedTokenToArithmeticConsole('0')" class="p-3.5 bg-white/5 border border-white/5 rounded-xl hover:bg-white/10">0</button>
+                            <button onclick="processArithmeticExpression()" class="col-span-4 p-4.5 bg-emerald-500 text-slate-950 font-black tracking-widest text-xs uppercase rounded-xl shadow-lg shadow-emerald-500/10">Run Quantitative Calculation (=)</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Right Column Metric Streams Outputs Display Render -->
+                <div class="lg:col-span-5 bg-slate-950 border border-white/10 text-white p-6 sm:p-8 rounded-[28px] flex flex-col justify-between space-y-8 relative overflow-hidden shadow-2xl">
+                    <div class="w-full">
+                        <span class="text-[10px] font-bold text-amber-400 uppercase tracking-widest block mb-5 flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse"></span> Metric Stream Compile Result</span>
+                        <div id="calculatorOutputsPanelContainer" class="space-y-4 font-mono text-xs text-slate-400">
+                            <!-- Injected dynamically via script runtime loops -->
+                        </div>
+                    </div>
+
+                    <!-- Graphic Output Canvas Node Box -->
+                    <div class="bg-white/5 border border-white/5 p-4 rounded-2xl flex items-center justify-center min-h-[220px]">
+                        <canvas id="quantGlobalSuiteChartNode" class="max-w-[200px] max-h-[200px]"></canvas>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- LAYER 4: CLIENT CONSULTATION STRATEGIC INTAKE DESK (CONTACT) -->
+        <section id="intake-layer" class="py-16 max-w-4xl mx-auto px-6 space-y-12">
+            <div class="text-center space-y-3">
+                <span class="text-xs font-bold text-blue-400 font-mono uppercase tracking-widest block">Intake Gateway Center</span>
+                <h2 class="text-4xl font-bold font-display text-white tracking-tight">Book a Secured Strategic Consultation</h2>
+                <p class="text-slate-400 font-light text-sm">Submit corporate profiling metadata variables. Data writes permanently to terminal local state memory tracks.</p>
+            </div>
+
+            <!-- Data Capture Lead Sheet Form Element -->
+            <form id="consultationIntakeFormSheet" onsubmit="writeSubmissionPayloadToLocalStorageLedger(event)" class="glass-terminal-card p-6 sm:p-12 rounded-[28px] space-y-6 shadow-2xl">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div><label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-2.5 font-mono">Full Legal Name</label><input type="text" id="clNameField" required placeholder="Aman Sharma" class="w-full px-4 py-3.5 bg-black/40 border border-white/10 rounded-xl text-sm font-medium text-white focus:outline-none focus:border-blue-500"></div>
+                    <div><label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-2.5 font-mono">Communications Security Email</label><input type="email" id="clEmailField" required placeholder="aman@gmail.com" class="w-full px-4 py-3.5 bg-black/40 border border-white/10 rounded-xl text-sm font-medium text-white focus:outline-none focus:border-blue-500"></div>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div><label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-2.5 font-mono">Mobile Contact Node</label><input type="text" id="clPhoneField" required placeholder="+91 98765-43210" class="w-full px-4 py-3.5 bg-black/40 border border-white/10 rounded-xl text-sm font-medium text-white focus:outline-none focus:border-blue-500"></div>
+                    <div><label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-2.5 font-mono">Strategic Advisory Subject</label><input type="text" id="clSubjectField" required placeholder="Corporate Asset Allocation Portfolio" class="w-full px-4 py-3.5 bg-black/40 border border-white/10 rounded-xl text-sm font-medium text-white focus:outline-none focus:border-blue-500"></div>
+                </div>
+                <div><label class="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-2.5 font-mono">Operational Messages & Volumetric Project Milestones</label><textarea id="clMessageField" rows="4" required placeholder="Describe capital constraints, alternative allocations or required tax timelines..." class="w-full px-4 py-3.5 bg-black/40 border border-white/10 rounded-xl text-sm font-medium text-white focus:outline-none focus:border-blue-500"></textarea></div>
+                <button type="submit" class="w-full py-4.5 bg-blue-600 text-white font-black rounded-xl tracking-widest text-xs uppercase shadow-xl hover:bg-blue-700 transition-all">Freeze Consultation Ledger</button>
+            </form>
+        </section>
+
+
+        <!-- LAYER 5: FINTECH STATE ANALYTICS MONITORING DASHBOARD PANEL -->
+        <section id="dashboard-layer" class="spa-view-layer py-16 max-w-7xl mx-auto px-6 space-y-8">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-b border-white/5 pb-5">
+                <div>
+                    <span class="text-xs font-bold text-blue-600 uppercase tracking-widest block mb-1">State Registry Core</span>
+                    <h2 class="text-3xl font-bold font-display tracking-tight text-white">Portfolio Financial Dashboard</h2>
+                </div>
+                <button onclick="generateRandomMockTransaction()" class="px-5 py-3 bg-white/5 border border-white/10 text-white font-bold text-xs tracking-wider uppercase rounded-xl hover:bg-white/10 transition-all"><i class="fa-solid fa-plus mr-1.5"></i> Insert Transaction Log</button>
+            </div>
+
+            <!-- Value Indicator Cards Row Grid Array -->
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 text-white font-sans">
+                <div class="glass-terminal-card p-6 rounded-2xl shadow-sm"><div class="text-[10px] uppercase tracking-wider font-bold text-slate-400 mb-1">Liquidity Balance</div><div class="text-xl sm:text-2xl font-black font-mono text-white">₹8,45,200</div></div>
+                <div class="glass-terminal-card p-6 rounded-2xl shadow-sm"><div class="text-[10px] uppercase tracking-wider font-bold text-slate-400 mb-1">Monthly Inbound</div><div class="text-xl sm:text-2xl font-black font-mono text-emerald-500">₹1,25,000</div></div>
+                <div class="glass-terminal-card p-6 rounded-2xl shadow-sm"><div class="text-[10px] uppercase tracking-wider font-bold text-slate-400 mb-1">Monthly Outbound</div><div class="text-xl sm:text-2xl font-black font-mono text-red-400">₹42,300</div></div>
+                <div class="glass-terminal-card p-6 rounded-2xl shadow-sm"><div class="text-[10px] uppercase tracking-wider font-bold text-slate-400 mb-1">Net Savings Index</div><div class="text-xl sm:text-2xl font-black font-mono text-blue-600">₹82,700</div></div>
+            </div>
+
+            <!-- Dashboard Ledger Activity Logs Table Sheets -->
+            <div class="glass-terminal-card rounded-3xl overflow-hidden shadow-sm">
+                <div class="p-5 border-b border-white/5 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4 bg-black/20">
+                    <span class="font-display font-bold text-sm text-slate-300">Historical Registry Records Ledger</span>
+                    <input type="text" id="dashboardSearchFieldNode" oninput="runDashboardLedgerFiltering()" placeholder="Search data block token..." class="px-4 py-2 bg-slate-900 border border-white/10 rounded-xl text-xs font-medium text-white focus:outline-none focus:border-blue-500">
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse text-xs text-slate-300">
+                        <thead>
+                            <tr class="bg-black/40 border-b border-white/5 text-[10px] font-bold uppercase tracking-wider text-slate-500 font-mono">
+                                <th class="p-4">Reference Token ID</th>
+                                <th class="p-4">Allocation Heading</th>
+                                <th class="p-4">Structural Class</th>
+                                <th class="p-4 text-right">Volumetric Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody id="dashboardLedgerRenderTableBody">
+                            <!-- Loaded dynamically via state storage elements lifecycle -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- HIDDEN ADVISORY ADMINISTRATIVE SECURITY DECRYPTION VAULT (TRIGGER ACCESS VIA SHORTCUT: CTRL + SHIFT + A) -->
+    <div id="hiddenSecurityAdminVaultOverlay" class="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-xl flex items-center justify-center p-4 hidden">
+        <div class="bg-slate-900 border border-white/10 text-white w-full max-w-5xl rounded-3xl overflow-hidden shadow-2xl relative flex flex-col max-h-[85vh]">
+            
+            <!-- System Header Status Information Controllers -->
+            <div class="p-5 border-b border-white/5 bg-black/40 flex items-center justify-between font-display">
+                <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-red-400"><i class="fa-solid fa-fingerprint text-sm animate-pulse"></i> Encrypted Administrative System Vault</div>
+                <button onclick="terminateAdminVaultDisplaySession()" class="text-xs font-bold uppercase tracking-widest px-3 py-1.5 bg-white/5 border border-white/10 rounded-lg text-slate-400 hover:text-white hover:bg-red-600 transition-all">✕ Close Vault</button>
+            </div>
+
+            <!-- AUTHORIZATION LOCK MODULE GATE DESK -->
+            <div id="adminAuthGateFormBox" class="p-8 sm:p-12 max-w-md mx-auto w-full space-y-5 text-center my-auto">
+                <div class="space-y-1.5">
+                    <h3 class="text-xl font-bold font-display">Sovereign Encryption Clearance</h3>
+                    <p class="text-xs text-slate-400">Input authorization code matrices to deploy data decryption tracks.</p>
+                </div>
+                <div class="space-y-3">
+                    <input type="password" id="adminVaultSecretPassField" placeholder="Enter Secure Password" class="w-full px-4 py-3.5 bg-slate-950 border border-white/10 rounded-xl text-xs font-medium font-mono text-white text-center focus:outline-none focus:border-blue-500">
+                </div>
+                <button onclick="validateAdminVaultSecretPassToken()" class="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs uppercase tracking-widest rounded-xl transition-colors">Decrypt Core Repositories</button>
+            </div>
+
+            <!-- LIVE DECRYPTED HISTORY RECORDS TABLES SHEET CONTAINER -->
+            <div id="adminLiveDecryptedGridBox" class="hidden flex-grow flex flex-col overflow-hidden">
+                <div class="p-4 bg-white/5 border-b border-white/5 flex items-center justify-between text-[11px] text-slate-500 font-mono">
+                    <span>// Status: Clearance Granted (Admin View Unlocked)</span>
+                    <button onclick="wipeAllArchivedLeadsMemory()" class="text-red-400 font-bold hover:text-red-500">Wipe Memory Repository</button>
+                </div>
+                <div class="overflow-auto flex-grow">
+                    <table class="w-full text-left border-collapse text-xs font-sans">
+                        <thead>
+                            <tr class="bg-black/40 border-b border-white/5 font-mono text-[10px] font-bold tracking-wider uppercase text-slate-500">
+                                <th class="p-4">Tracking Code Hash</th>
+                                <th class="p-4">Client Identity</th>
+                                <th class="p-4">Communication Nodes</th>
+                                <th class="p-4">Subject Vector</th>
+                                <th class="p-4">Operational Message Scope Details</th>
+                            </tr>
+                        </thead>
+                        <tbody id="adminVaultDecryptedTableBodyNode" class="text-slate-300 font-medium">
+                            <!-- Injected dynamically via runtime operational routines -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Corporate Unified Fintech Footer Component Layer -->
+    <footer class="bg-slate-950/80 text-slate-600 py-12 text-center text-xs font-medium border-t border-white/5 relative z-10 font-sans space-y-1">
+         <p>&copy; 2026 Riya Finance Consultancy. Smart Financial Solutions for a Better Tomorrow. All Rights Reserved.</p>
+         <p class="text-slate-700 text-[10px]">Data systems encrypted under active tracking filters parameters. Sovereign protection enabled.</p>
+    </footer>
+
+    <!-- Integrated Dynamic Routing Engines, Calculation Nodes Array Script -->
+    <script>
+        // High-Speed Single-Page View Panel Routing Lifecycle Engine 
+        function routeSPA(targetLayerElementId) {
+            const layers = document.querySelectorAll('.spa-view-layer');
+            layers.forEach(layer => layer.classList.remove('layer-active'));
+
+            const links = document.querySelectorAll('header nav button');
+            links.forEach(lnk => lnk.className = "px-5 py-3 rounded-xl text-xs font-bold uppercase tracking-wider text-slate-400 hover:text-white transition-colors");
+
+            document.getElementById(targetLayerElementId).classList.add('layer-active');
+
+            const trackingNavButton = document.getElementById('nav-' + targetLayerElementId);
+            if (trackingNavButton) {
+                trackingNavButton.className = "px-5 py-3 rounded-xl text-xs font-bold uppercase tracking-wider text-white bg-blue-600 shadow-md";
+            }
+
+            window.scrollTo(0,0);
+        }
+
+        // Global Chart.js Visual Canvas Vector Multi-Tab Reference Tracker Array
+        let globalCalculatorSuiteChartInstance = null;
+
+        function refreshGlobalCalculatorGraphicChart(labels, values, colors) {
+            const ctxCanvasNode = document.getElementById('quantGlobalSuiteChartNode').getContext('2d');
+            if (globalCalculatorSuiteChartInstance) {
+                globalCalculatorSuiteChartInstance.destroy();
+            }
+            globalCalculatorSuiteChartInstance = new Chart(ctxCanvasNode, {
+                type: 'pie',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        data: values,
+                        backgroundColor: colors,
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } }
+                }
+            });
+        }
+
+        // Tab Interchange Routine Mechanisms inside Calculators Desk Layer Module
+        function toggleSuiteCalcTab(boxElementId) {
+            const boxes = document.querySelectorAll('.suite-calc-block');
+            boxes.forEach(bx => bx.classList.add('hidden'));
+
+            const navs = document.querySelectorAll('#calculators-layer border-b + div button, div button');
+            navs.forEach(n => {
+                if (n.id && n.id.startsWith('btn-')) {
+                    n.className = "px-5 py-3 rounded-xl text-slate-400 hover:bg-white/5";
+                }
+            });
+
+            document.getElementById(boxElementId).classList.remove('hidden');
+            const targetNavTabLink = document.getElementById('btn-' + boxElementId);
+            if (targetNavTabLink) {
+                targetNavTabLink.className = "px-5 py-3 rounded-xl bg-blue-600 text-white shadow-md";
+            }
+
+            if (boxElementId === 'tab-emi-engine') executeEmiCoreCalculations();
+            if (boxElementId === 'tab-sip-engine') executeSipCoreCalculations();
+            if (boxElementId === 'tab-gst-engine') executeGstCoreCalculations();
+            if (boxElementId === 'tab-tax-engine') executeTaxCoreCalculations();
+        }
+
+        // TAB I: REAL AMORTIZATION EMI PROCESSING LOGICS
+        function executeEmiCoreCalculations() {
+            const pSum = parseFloat(document.getElementById('inpEmiPrincipal').value) || 0;
+            const rateYear = parseFloat(document.getElementById('inpEmiRateIndex').value) || 0;
+            const durationYears = parseFloat(document.getElementById('inpEmiTenureYears').value) || 0;
+
+            const rateMonthFraction = (rateYear / 12) / 100;
+            const totalMonths = durationYears * 12;
+
+            let installmentValue = 0;
+            if (rateMonthFraction > 0) {
+                installmentValue = pSum * rateMonthFraction * Math.pow(1 + rateMonthFraction, totalMonths) / (Math.pow(1 + rateMonthFraction, totalMonths) - 1);
+            } else {
+                installmentValue = pSum / totalMonths;
+            }
+
+            const grossRepaymentTotal = installmentValue * totalMonths;
+            const interestBurdenAccrual = grossRepaymentTotal - pSum;
+
+            document.getElementById('calculatorOutputsPanelContainer').innerHTML = `
+                <div class="flex justify-between border-b border-white/5 pb-2.5"><span>Monthly Loan EMI:</span><span class="text-white font-bold">₹${Math.round(installmentValue).toLocaleString()}</span></div>
+                <div class="flex justify-between border-b border-white/5 pb-2.5"><span>Principal Principal:</span><span class="text-white font-bold">₹${Math.round(pSum).toLocaleString()}</span></div>
+                <div class="flex justify-between border-b border-white/5 pb-2.5"><span>Interest Burden Accrual:</span><span class="text-amber-400 font-bold">₹${Math.round(interestBurdenAccrual).toLocaleString()}</span></div>
+                <div class="flex justify-between"><span>Gross Total Repayment:</span><span class="text-emerald-400 font-bold">₹${Math.round(grossRepaymentTotal).toLocaleString()}</span></div>
+            `;
+            refreshGlobalCalculatorGraphicChart(['Principal Sum Base', 'Interest Overheads'], [pSum, interestBurdenAccrual], ['#2563eb', '#f59e0b']);
+        }
+
+        // TAB II: SIP SYSTEMATIC WEALTH PREDICTOR LOGICS
+        function executeSipCoreCalculations() {
+            const recurringInflow = parseFloat(document.getElementById('inpSipMonthlySum').value) || 0;
+            const rateP = parseFloat(document.getElementById('inpSipYieldIndex').value) || 0;
+            const durationY = parseFloat(document.getElementById('inpSipTenureYears').value) || 0;
+
+            const rateFraction = (rateP / 12) / 100;
+            const totalMonths = durationY * 12;
+
+            let maturityPortfolioValue = 0;
+            if (rateFraction > 0) {
+                maturityPortfolioValue = recurringInflow * [Math.pow(1 + rateFraction, totalMonths) - 1] * (1 + rateFraction) / rateFraction;
+            } else {
+                maturityPortfolioValue = recurringInflow * totalMonths;
+            }
+
+            const collectiveInvestedPrincipalBase = recurringInflow * totalMonths;
+            const absoluteCompoundedGains = maturityPortfolioValue - collectiveInvestedPrincipalBase;
+
+            document.getElementById('calculatorOutputsPanelContainer').innerHTML = `
+                <div class="flex justify-between border-b border-white/5 pb-2.5"><span>Total Capital Invested:</span><span class="text-white font-bold">₹${Math.round(collectiveInvestedPrincipalBase).toLocaleString()}</span></div>
+                <div class="flex justify-between border-b border-white/5 pb-2.5"><span>Compounded Wealth Gains:</span><span class="text-amber-400 font-bold">₹${Math.round(absoluteCompoundedGains).toLocaleString()}</span></div>
+                <div class="flex justify-between"><span>Gross Maturity Portfolio:</span><span class="text-emerald-400 font-bold">₹${Math.round(maturityPortfolioValue).toLocaleString()}</span></div>
+            `;
+            refreshGlobalCalculatorGraphicChart(['Invested Principal Base', 'Gains Accrued'], [collectiveInvestedPrincipalBase, absoluteCompoundedGains], ['#2563eb', '#10b981']);
+        }
+
+        // TAB III: STATUTORY INVOICE GST COMPUTATION ALGORITHMS
+        function executeGstCoreCalculations() {
+            const initialCost = parseFloat(document.getElementById('inpGstSupplyCost').value) || 0;
+            const selectedTaxBracket = parseFloat(document.getElementById('inpGstSlabRate').value) || 0;
+
+            const calculatedGstSurcharge = initialCost * (selectedTaxBracket / 100);
+            const grossInvoiceValuationTotal = initialCost + calculatedGstSurcharge;
+
+            document.getElementById('calculatorOutputsPanelContainer').innerHTML = `
+                <div class="flex justify-between border-b border-white/5 pb-2.5"><span>Base Economic Supply Value:</span><span class="text-white font-bold">₹${Math.round(initialCost).toLocaleString()}</span></div>
+                <div class="flex justify-between border-b border-white/5 pb-2.5"><span>Applied GST Surcharge (${selectedTaxBracket}%):</span><span class="text-amber-400 font-bold">₹${Math.round(calculatedGstSurcharge).toLocaleString()}</span></div>
+                <div class="flex justify-between"><span>Gross Invoice Valuation Total:</span><span class="text-emerald-400 font-bold">₹${Math.round(grossInvoiceValuationTotal).toLocaleString()}</span></div>
+            `;
+            refreshGlobalCalculatorGraphicChart(['Base Cost Index', 'GST Surcharge Block'], [initialCost, calculatedGstSurcharge], ['#475569', '#f59e0b']);
+        }
+
+        // TAB IV: PROGRESSIVE INCOME TAX SLAB RECONCILIATION ENGINE
+        function executeTaxCoreCalculations() {
+            const revenueGrossInflow = parseFloat(document.getElementById('inpTaxGrossInflow').value) || 0;
+            let finalTaxOverheadLiability = 0;
+
+            // New Regime Guidelines Progressive Sabs Matching Logic Structure
+            if (revenueGrossInflow > 1500000) {
+                finalTaxOverheadLiability = (revenueGrossInflow - 1500000) * 0.3 + 150000;
+            } else if (revenueGrossInflow > 1200000) {
+                finalTaxOverheadLiability = (revenueGrossInflow - 1200000) * 0.2 + 90000;
+            } else if (revenueGrossInflow > 900000) {
+                finalTaxOverheadLiability = (revenueGrossInflow - 900000) * 0.15 + 45000;
+            } else if (revenueGrossInflow > 600000) {
+                finalTaxOverheadLiability = (revenueGrossInflow - 600000) * 0.1 + 15000;
+            } else if (revenueGrossInflow > 300000) {
+                finalTaxOverheadLiability = (revenueGrossInflow - 300000) * 0.05;
+            }
+
+            const netPostTaxLiquidIncome = revenueGrossInflow - finalTaxOverheadLiability;
+
+            document.getElementById('calculatorOutputsPanelContainer').innerHTML = `
+                <div class="flex justify-between border-b border-white/5 pb-2.5"><span>Gross Annual Revenue:</span><span class="text-white font-bold">₹${Math.round(revenueGrossInflow).toLocaleString()}</span></div>
+                <div class="flex justify-between border-b border-white/5 pb-2.5"><span>Calculated Tax Overhead:</span><span class="text-rose-400 font-bold">₹${Math.round(finalTaxOverheadLiability).toLocaleString()}</span></div>
+                <div class="flex justify-between"><span>Net Post-Tax Remittance Balance:</span><span class="text-emerald-400 font-bold">₹${Math.round(netPostTaxLiquidIncome).toLocaleString()}</span></div>
+            `;
+            refreshGlobalCalculatorGraphicChart(['Liquid Income Portion', 'Tax Surcharge Overheads'], [netPostTaxLiquidIncome, finalTaxOverheadLiability], ['#2563eb', '#ef4444']);
+        }
+
+        // TAB V: CONSOLIDATED ARITHMETIC CONSOLEPAD BUFFER LOGICS
+        let arithmeticConsoleTextStream = "0";
+        function feedTokenToArithmeticConsole(charToken) {
+            if (arithmeticConsoleTextStream === "0" && charToken !== ".") {
+                arithmeticConsoleTextStream = charToken;
+            } else {
+                arithmeticConsoleTextStream += charToken;
+            }
+            synchronizeArithmeticViewDisplay();
+        }
+        function flushArithmeticConsole() {
+            arithmeticConsoleTextStream = "0";
+            synchronizeArithmeticViewDisplay();
+        }
+        function processArithmeticExpression() {
+            try {
+                arithmeticConsoleTextStream = String(eval(arithmeticConsoleTextStream));
+            } catch (err) {
+                arithmeticConsoleTextStream = "Fault Sign";
+            }
+            synchronizeArithmeticViewDisplay();
+        }
+        function synchronizeArithmeticViewDisplay() {
+            document.getElementById('arithmeticDisplayReadout').value = arithmeticConsoleTextStream;
+        }
+
+        // PERSISTENT PORTFOLIO ANALYTICS DASHBOARD INTERNAL QUEUE LOGICS
+        let stateActivityLedgerTransactionsQueue = JSON.parse(localStorage.getItem('rf_dashboard_state_txns_queue')) || [
+            { id: "TXN-0051", title: "Sovereign Blue-Chip Capital Allocation", group: "Investment", magnitude: 85000 },
+            { id: "TXN-4902", title: "Quarterly Audit Advisory Overhead", group: "Expense", magnitude: 18500 },
+            { id: "TXN-2213", title: "Venture Seed Expansion Allocation", group: "Leverage", magnitude: 125000 }
+        ];
+
+        function freezeDashboardQueueToHardwareDisk() {
+            localStorage.setItem('rf_dashboard_state_txns_queue', JSON.stringify(stateActivityLedgerTransactionsQueue));
+        }
+
+        function renderDashboardTableGridFromState(filteredDataQueue = null) {
+            const targetTbody = document.getElementById('dashboardLedgerRenderTableBody');
+            const dataLoopTargetArray = filteredDataQueue || stateActivityLedgerTransactionsQueue;
+
+            if (dataLoopTargetArray.length === 0) {
+                targetTbody.innerHTML = `<tr><td colspan="4" class="p-6 text-center text-slate-400 font-mono italic">// No matching transaction tokens found.</td></tr>`;
+                return;
+            }
+
+            targetTbody.innerHTML = "";
+            dataLoopTargetArray.forEach(row => {
+                const rowElementNode = document.createElement('tr');
+                rowElementNode.className = "border-b border-slate-100 hover:bg-slate-50/60 font-medium text-slate-700 transition-colors";
+                rowElementNode.innerHTML = `
+                    <td class="p-4 font-mono font-bold text-blue-600">${row.id}</td>
+                    <td class="p-4 font-sans font-semibold">${row.title}</td>
+                    <td class="p-4"><span class="px-2.5 py-1 rounded-full text-[10px] font-bold bg-slate-100 text-slate-500 font-sans">${row.group}</span></td>
+                    <td class="p-4 text-right font-mono font-bold text-slate-900">₹${row.magnitude.toLocaleString()}</td>
+                `;
+                targetTbody.appendChild(rowElementNode);
+            });
+        }
+
+        function generateRandomMockTransaction() {
+            const headersMockList = ["Equity Portfolio Capital Rebalancing", "TDS Deductions Corporate Settle", "Sovereign Gold Indices Injection", "Venture Seed Expansion Allocation"];
+            const groupsMockList = ["Investment", "Tax Allocation", "Portfolio Alpha", "Leverage"];
+
+            const randomIdCode = "TXN-" + Math.floor(1000 + Math.random() * 9000);
+            const chosenHeader = headersMockList[Math.floor(Math.random() * headersMockList.length)];
+            const chosenGroup = groupsMockList[Math.floor(Math.random() * groupsMockList.length)];
+            const chosenAmt = Math.floor(8000 + Math.random() * 92000);
+
+            stateActivityLedgerTransactionsQueue.unshift({ id: randomIdCode, title: chosenHeader, group: groupsMockList, magnitude: chosenAmt });
+            freezeDashboardQueueToHardwareDisk();
+            renderDashboardTableGridFromState();
+        }
+
+        function runDashboardLedgerFiltering() {
+            const queryTokenString = document.getElementById('dashboardSearchFieldNode').value.toLowerCase();
+            const matchingRowsResult = stateActivityLedgerTransactionsQueue.filter(txn => txn.id.toLowerCase().includes(queryTokenString) || txn.title.toLowerCase().includes(queryTokenString));
+            renderDashboardTableGridFromState(matchingRowsResult);
+        }
+
+        // ENCRYPTED LIVE CLIENT INTAKE RECORD STORAGE & ADMINISTRATIVE SECRET SHORTCUT DESK
+        function writeSubmissionPayloadToLocalStorageLedger(event) {
+            event.preventDefault();
+
+            const name = document.getElementById('clNameField').value;
+            const email = document.getElementById('clEmailField').value;
+            const phone = document.getElementById('clPhoneField').value;
+            const subject = document.getElementById('clSubjectField').value;
+            const msg = document.getElementById('clMessageField').value;
+
+            const verificationHashToken = "RFC-0x" + Math.floor(Math.random() * 16777215).toString(16).toUpperCase();
+
+            const targetPayloadRecordMap = {
+                hashToken: verificationHashToken, name: name, email: email, phone: phone, subject: subject, msg: msg
+            };
+
+            let historicalSecureDatabaseQueue = JSON.parse(localStorage.getItem('rf_consultancy_hidden_vault_leads')) || [];
+            historicalSecureDatabaseQueue.unshift(targetPayloadRecordMap);
+
+            localStorage.setItem('rf_consultancy_hidden_vault_leads', JSON.stringify(historicalSecureDatabaseQueue));
+
+            alert("Handshake Confirmed! Your advisory consultation variables have been written into the secure permanent registry vaults.");
+            document.getElementById('consultationIntakeFormSheet').reset();
+
+            if (!document.getElementById('adminLiveDecryptedGridBox').classList.contains('hidden')) {
+                renderAdminVaultDecryptedTableRowsUI();
+            }
+        }
+
+        // SHORTCUT KEY BINDING TRIGGERS ROUTINE: CTRL + SHIFT + A
+        window.addEventListener('keydown', function(event) {
+            if (event.ctrlKey && event.shiftKey && (event.key === 'A' || event.key === 'a')) {
+                event.preventDefault();
+                document.getElementById('hiddenSecurityAdminVaultOverlay').classList.remove('hidden');
+            }
+        });
+
+        function terminateAdminVaultDisplaySession() {
+            document.getElementById('hiddenSecurityAdminVaultOverlay').classList.add('hidden');
+            document.getElementById('adminLiveDecryptedGridBox').classList.add('hidden');
+            document.getElementById('adminAuthGateFormBox').classList.remove('hidden');
+            document.getElementById('adminVaultSecretPassField').value = "";
+        }
+
+        function validateAdminVaultSecretPassToken() {
+            const keyPassInput = document.getElementById('adminVaultSecretPassField').value;
+
+            if (keyPassInput === "123@riya") {
+                document.getElementById('adminAuthGateFormBox').classList.add('hidden');
+                document.getElementById('adminLiveDecryptedGridBox').classList.remove('hidden');
+                renderAdminVaultDecryptedTableRowsUI();
+            } else {
+                alert("Decryption Token Rejected! Administrative credentials mismatch.");
+                document.getElementById('adminVaultSecretPassField').value = "";
+            }
+        }
+
+        function renderAdminVaultDecryptedTableRowsUI() {
+            const tableBodyNode = document.getElementById('adminVaultDecryptedTableBodyNode');
+            const dataArchivalQueueList = JSON.parse(localStorage.getItem('rf_consultancy_hidden_vault_leads')) || [];
+
+            if (dataArchivalQueueList.length === 0) {
+                tableBodyNode.innerHTML = `<tr><td colspan="5" class="p-8 text-center text-slate-600 font-sans italic">// Vault database clean. No intake logs found inside local registries.</td></tr>`;
+                return;
+            }
+
+            tableBodyNode.innerHTML = "";
+            dataArchivalQueueList.forEach(log => {
+                const trNode = document.createElement('tr');
+                trNode.className = "border-b border-white/5 font-sans hover:bg-white/5 transition-colors text-slate-300";
+                trNode.innerHTML = `
+                    <td class="p-4 font-mono font-bold text-blue-400">${log.hashToken}</td>
+                    <td class="p-4 font-sans font-bold text-white">${log.name}</td>
+                    <td class="p-4 font-mono text-slate-400 flex flex-col"><span>${log.email}</span><span class="text-[10px] text-slate-500">${log.phone}</span></td>
+                    <td class="p-4 text-slate-300">${log.subject}</td>
+                    <td class="p-4 text-slate-500 max-w-sm truncate font-sans">${log.msg}</td>
+                `;
+                tableBodyNode.appendChild(trNode);
+            });
+        }
+
+        function wipeAllArchivedLeadsMemory() {
+            if (confirm("Confirm security override command to completely purge all archived leads from local database permanently?")) {
+                localStorage.removeItem('rf_consultancy_hidden_vault_leads');
+                renderAdminVaultDecryptedTableRowsUI();
+            }
+        }
+
+        // Automatic Global Lifecycle Bootloader Trigger Event 
+        window.onload = function() {
+            renderDashboardTableGridFromState();
+            executeEmiCoreCalculations();
+        };
+    </script>
+</body>
+</html>
